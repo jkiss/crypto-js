@@ -1,5 +1,3 @@
-#summary Code license.
-
 Copyright (c) 2009, Jeff Mott.
 All rights reserved.
 
