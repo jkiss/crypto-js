@@ -1,0 +1,11 @@
+{{{
+<script type="text/javascript" src="crypto-js/crypto-sha256-ofb-aes/crypto-sha256-ofb-aes.js"></script>
+<script type="text/javascript">
+
+var secretKey = Crypto.util.bytes_string( Crypto.SHA256("Secret Passphrase", { asBytes: true }) );
+
+var crypted = Crypto.AES.encrypt("Hello, World!", secretKey);
+var plain = Crypto.AES.decrypt(crypted, secretKey);
+
+</script>
+}}}
