@@ -1,0 +1,8 @@
+{{{
+<script type="text/javascript" src="crypto-js/crypto-sha256/crypto-sha256.js"></script>
+<script type="text/javascript">
+
+var digest = Crypto.SHA256("Hello, World!");
+
+</script>
+}}}
