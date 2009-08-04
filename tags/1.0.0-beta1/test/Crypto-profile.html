@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+
+<!-- Profiler -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/yuiloader-dom-event/yuiloader-dom-event.js"></script>
+<script type="text/javascript" src="lib/Profiler.js"></script>
+
+<!-- Test subject -->
+<script type="text/javascript" src="../src/Crypto.js"></script>
+
+<!-- Profiling -->
+<script type="text/javascript">
+
+// 5KB of random, dummy data
+var data = [];
+for (var i = 0; i < 5000; i++) data.push(String.fromCharCode(Math.floor(Math.random() * 256)));
+data = data.join("");
+
+profile(["Crypto.util"], function(){
+
+	var bytes = Crypto.util.string_bytes(data);
+	Crypto.util.bytes_string(bytes);
+
+	var words = Crypto.util.string_words(data);
+
+	Crypto.util.bytes_words(bytes);
+	Crypto.util.words_bytes(words);
+
+	var hex = Crypto.util.bytes_hex(bytes);
+	Crypto.util.hex_bytes(hex);
+
+	var base64 = Crypto.util.bytes_base64(bytes);
+	Crypto.util.base64_bytes(base64);
+
+});
+
+</script>
+
+</head>
+<body class="yui-skin-sam">
+</body>
