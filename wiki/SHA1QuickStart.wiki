@@ -1,8 +1,0 @@
-{{{
-<script type="text/javascript" src="crypto-js/crypto-sha1/crypto-sha1.js"></script>
-<script type="text/javascript">
-
-var digest = Crypto.SHA1("Hello, World!");
-
-</script>
-}}}

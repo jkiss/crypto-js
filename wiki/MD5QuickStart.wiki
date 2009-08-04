@@ -1,8 +1,0 @@
-{{{
-<script type="text/javascript" src="crypto-js/crypto-md5/crypto-md5.js"></script>
-<script type="text/javascript">
-
-var digest = Crypto.MD5("Hello, World!");
-
-</script>
-}}}

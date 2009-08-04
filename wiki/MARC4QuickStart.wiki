@@ -1,9 +1,0 @@
-{{{
-<script type="text/javascript" src="crypto-js/crypto-marc4/crypto-marc4.js"></script>
-<script type="text/javascript">
-
-var crypted = Crypto.MARC4.encrypt("Hello, World!", "Secret Passphrase");
-var plain = Crypto.MARC4.decrypt(crypted, "Secret Passphrase");
-
-</script>
-}}}
