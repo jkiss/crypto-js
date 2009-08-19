@@ -1,4 +1,3 @@
-#labels Featured
 = Quick-start Guide =
 
 == MD5 ==
