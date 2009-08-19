@@ -1,4 +1,6 @@
 #labels Featured
+<wiki:toc/>
+
 = Quick-start Guide =
 
 == MD5 ==
