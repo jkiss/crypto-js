@@ -1,0 +1,17 @@
+= Change Log =
+
+== v2.0.0 beta 1 ==
+
+  * Added support for Unicode encoded as UTF-8
+  * Added support for input as either strings or byte arrays
+  * Other minor and cosmetic changes
+
+== v1.1.0 ==
+
+  * Added HMAC and PBKDF2
+  * Speed optimizations
+  * Other minor and cosmetic changes
+
+== v1.0.0 ==
+
+  * Initial release
