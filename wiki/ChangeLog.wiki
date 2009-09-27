@@ -1,10 +1,11 @@
 #labels Featured
 = Change Log =
 
-== 2.0.0 beta 1 ==
+== 2.0.0 ==
 
   * Added support for Unicode encoded as UTF-8
   * Added support for input as either strings or byte arrays
+  * K-weight optimizations
   * Other minor and cosmetic changes
 
 == 1.1.0 ==
