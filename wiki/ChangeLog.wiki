@@ -1,6 +1,13 @@
 #labels Featured
 = Change Log =
 
+== 2.2.0 ==
+
+  * Added PBKDF2Async and block cipher mode CBCNoPad.
+  * Added custom IV option to AES.
+  * Switched from YUI Compressor to Closure Compiler.
+  * Ensured Crypto object isn't overwritten if loaded twice.
+
 == 2.0.0 ==
 
   * Added support for Unicode encoded as UTF-8
