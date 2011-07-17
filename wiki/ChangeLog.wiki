@@ -1,26 +1,36 @@
 #labels Featured
 = Change Log =
 
-== 2.2.0 ==
+== 2.3 ==
 
-  * Added PBKDF2Async and block cipher mode CBCNoPad.
+  * Added ECB and CFB modes of operation.
+  * Added a variety of padding schemes.
+  * Other minor and cosmetic changes.
+
+== 2.2 ==
+
   * Added custom IV option to AES.
+  * Added CBC-nopad mode of operation.
+
+== 2.1 ==
+
+  * Added PBKDF2Async.
   * Switched from YUI Compressor to Closure Compiler.
   * Ensured Crypto object isn't overwritten if loaded twice.
 
-== 2.0.0 ==
+== 2.0 ==
 
   * Added support for Unicode encoded as UTF-8
   * Added support for input as either strings or byte arrays
   * K-weight optimizations
   * Other minor and cosmetic changes
 
-== 1.1.0 ==
+== 1.1 ==
 
   * Added HMAC and PBKDF2
   * Speed optimizations
   * Other minor and cosmetic changes
 
-== 1.0.0 ==
+== 1.0 ==
 
   * Initial release
