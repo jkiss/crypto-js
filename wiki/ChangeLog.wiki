@@ -5,7 +5,6 @@
 
   * Added ECB and CFB modes of operation.
   * Added a variety of padding schemes.
-  * Other minor and cosmetic changes.
 
 == 2.2 ==
 
@@ -20,17 +19,15 @@
 
 == 2.0 ==
 
-  * Added support for Unicode encoded as UTF-8
-  * Added support for input as either strings or byte arrays
-  * K-weight optimizations
-  * Other minor and cosmetic changes
+  * Added support for Unicode encoded as UTF-8.
+  * Added support for input as either strings or byte arrays.
+  * K-weight optimizations.
 
 == 1.1 ==
 
-  * Added HMAC and PBKDF2
-  * Speed optimizations
-  * Other minor and cosmetic changes
+  * Added HMAC and PBKDF2.
+  * Speed optimizations.
 
 == 1.0 ==
 
-  * Initial release
+  * Initial release.
