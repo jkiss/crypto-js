@@ -1,6 +1,10 @@
 #labels Featured
 = Change Log =
 
+== 2.4 ==
+
+  * Added CTR mode of operation.
+
 == 2.3 ==
 
   * Added ECB and CFB modes of operation.
