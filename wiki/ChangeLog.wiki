@@ -1,7 +1,7 @@
 #labels Featured
 = Change Log =
 
-== 2.5 ==
+== 2.5.1 ==
 
   * Added DES.
 
