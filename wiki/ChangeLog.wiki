@@ -1,6 +1,10 @@
 #labels Featured
 = Change Log =
 
+== 2.5 ==
+
+  * Added DES.
+
 == 2.4 ==
 
   * Added CTR mode of operation.
