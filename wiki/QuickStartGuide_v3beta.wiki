@@ -1,5 +1,7 @@
 <wiki:toc/>
 
+----
+
 = Changes =
 
   * Progressive processing.
