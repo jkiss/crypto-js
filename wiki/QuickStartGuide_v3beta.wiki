@@ -20,7 +20,7 @@ I'd love to hear everyone's thoughts before I release the final version. You can
 
 == Hashers ==
 
-=== The Algorithms ===
+=== The Hasher Algorithms ===
 
 ==== MD5 ====
 
@@ -55,11 +55,11 @@ SHA-256 is one of the three variants in the SHA-2 set. It isn't as widely used a
 </script>
 }}}
 
-=== The Input ===
+=== The Hasher Input ===
 
 The hash algorithms accept either strings or instances of CryptoJS.lib.WordArray. A WordArray object represents an array of 32-bit words. When you pass a string, it's automatically converted to a WordArray encoded as UTF-8.
 
-=== The Output ===
+=== The Hasher Output ===
 
 The hash you get back isn't a string yet. It's a WordArray object. When you use a WordArray object in a string context, it's automatically converted to a hex string.
 
@@ -122,7 +122,7 @@ HMAC can be used in combination with any iterated cryptographic hash function.
 </script>
 }}}
 
-=== Progressive Hashing ===
+=== Progressive HMAC Hashing ===
 
 {{{
 <script src="http://crypto-js.googlecode.com/svn/tags/3.0-beta1/build/rollups/hmac-sha256.js"></script>
@@ -278,7 +278,7 @@ And CryptoJS supports the following padding schemes:
   * ZeroPadding
   * NoPadding
 
-=== The Input ===
+=== The Cipher Input ===
 
 For the plaintext message, the cipher algorithms accept either strings or instances of CryptoJS.lib.WordArray.
 
@@ -286,7 +286,7 @@ For the key, when you pass a string, it's treated as a passphrase to derive an a
 
 For the ciphertext, the cipher algorithms accept either strings or instances of CryptoJS.lib.CipherParams. A CipherParams object represents a collection of parameters such as the IV, a salt, and the raw ciphertext itself. When you pass a string, it's automatically converted to a CipherParams object according to a configurable format strategy.
 
-=== The Output ===
+=== The Cipher Output ===
 
 The plaintext you get back after decryption is a WordArray object. See Hashers' Output for more detail.
 
