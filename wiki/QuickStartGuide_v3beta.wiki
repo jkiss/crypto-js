@@ -347,7 +347,11 @@ Here's how you might write a JSON formatter:
 
     var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase", { format: JsonFormatter });
 
+    alert(encrypted); // {"ct":"tZ4MsEnfbcDOwqau68aOrQ==","iv":"8a8c8fd8fe33743d3638737ea4a00698","s":"ba06373c8f57179c"}
+
     var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase", { format: JsonFormatter });
+
+    alert(decrypted.toString(CryptoJS.enc.Utf8)); // Message
 </script>
 }}}
 
