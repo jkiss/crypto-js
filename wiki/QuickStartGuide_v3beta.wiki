@@ -1,3 +1,4 @@
+#labels Deprecated
 I'd love to hear everyone's thoughts before I release the final version. You can write a comment on this page, you can create a new issue, or you can e-mail me directly.
 
 ----
