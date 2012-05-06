@@ -3,5 +3,8 @@
 
  * Paul Johnston
  * Angel Marin
+ * Stanford Javascript Crypto Library
+ * Forge JavaScript TLS project
  * Google
  * YUI
+ * Fabien Potencier and the Symfony project
