@@ -3,7 +3,7 @@
 
 == 3.0 ==
 
- * Added SHA-224, SHA-384, SHA-512, and TripleDes.
+ * Added SHA-224, SHA-384, SHA-512, and TripleDES.
  * Added progressive processing.
  * More compatible with existing implementations.
  * More adaptable to new and varied implementations.
