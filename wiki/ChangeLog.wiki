@@ -3,22 +3,22 @@
 
 == 3.0 ==
 
-* Added SHA-224, SHA-384, SHA-512, and TripleDes.
-* Added progressive processing.
-* More compatible with existing implementations.
-* More adaptable to new and varied implementations.
-* Better architecture under the hood.
-* Faaaster.
+ * Added SHA-224, SHA-384, SHA-512, and TripleDes.
+ * Added progressive processing.
+ * More compatible with existing implementations.
+ * More adaptable to new and varied implementations.
+ * Better architecture under the hood.
+ * Faaaster.
 
 == 2.5.3 ==
 
-* Fixed issue where CTR mode would clobber IV.
-* Fixed issue where SHA-256 would lose precision when hashing long messages.
-* Compatibility enhancement for implementations that output signed bytes.
+ * Fixed issue where CTR mode would clobber IV.
+ * Fixed issue where SHA-256 would lose precision when hashing long messages.
+ * Compatibility enhancement for implementations that output signed bytes.
 
 == 2.5.2 ==
 
-* Fixed mistyped DES method names.
+ * Fixed mistyped DES method names.
 
 == 2.5.1 ==
 
