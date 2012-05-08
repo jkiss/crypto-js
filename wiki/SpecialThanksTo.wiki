@@ -1,8 +1,7 @@
 #labels Featured
 = Special Thanks To =
 
- * Paul Johnston
- * Angel Marin
+ * Paul Johnston, Angel Marin
  * Project contributors
    * Simon Greatrix
    * Gergely Risko
