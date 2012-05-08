@@ -2,12 +2,11 @@
 = Special Thanks To =
 
  * Paul Johnston, Angel Marin
- * Project contributors
+ * CryptoJS contributors
    * Simon Greatrix
    * Gergely Risko
    * Don Park
  * Stanford Javascript Crypto Library
  * Forge JavaScript TLS project
- * Google
- * YUI
+ * Google, YUI
  * Fabien Potencier and the Symfony project
