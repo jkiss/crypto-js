@@ -1,11 +1,11 @@
 #labels Featured
 = Special Thanks To =
 
- * Paul Johnston, Angel Marin
  * CryptoJS contributors
    * Simon Greatrix
    * Gergely Risko
    * Don Park
+ * Paul Johnston, Angel Marin
  * Stanford Javascript Crypto Library
  * Forge JavaScript TLS project
  * Google, YUI
