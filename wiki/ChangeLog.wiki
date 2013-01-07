@@ -26,6 +26,12 @@
  * Better architecture under the hood.
  * Faaaster.
 
+== 2.5.4 ==
+
+ * Added error checks when unpadding fails.
+ * Improved PBKDF2Async performance.
+ * Removed use of native base64 functions.
+
 == 2.5.3 ==
 
  * Fixed issue where CTR mode would clobber IV.
