@@ -1,6 +1,22 @@
 #labels Featured
 = Change Log =
 
+== 3.1 ==
+
+ * Added SHA-3.
+ * Added RIPEMD-160.
+ * Added UTF-16 little endian.
+ * Added support to create WordArrays from typed arrays.
+ * Added cipher params Hex formatter.
+ * Increased hash maximum message length from a 32-bit counter to 53-bit.
+ * Fixed issue where HMAC would ignore key sigBytes.
+ * Fixed Rabbit endianness error.
+ * Removed byte order mark from source file.
+
+== 3.0.1 ==
+
+ * Fixed issue where WordArray concat could fail with large data (greater than 255KB).
+
 == 3.0 ==
 
  * Added SHA-224, SHA-384, SHA-512, and TripleDES.
