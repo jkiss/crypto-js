@@ -1,6 +1,11 @@
 #labels Featured
 = Change Log =
 
+== 3.1.2 ==
+
+ * Fixed typed array support when the view has a limited section of the buffer.
+ * Added counter block mode compatible with  Dr Brian Gladman fileenc.c.
+
 == 3.1 ==
 
  * Added SHA-3.
