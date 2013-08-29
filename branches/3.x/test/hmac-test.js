@@ -16,6 +16,10 @@ YUI.add('algo-hmac-test', function (Y) {
             Y.Assert.areEqual('56be34521d144c88dbb8c733f0e8b3f6', C.HmacMD5(C.enc.Hex.parse('dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd'), C.enc.Hex.parse('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')).toString());
         },
 
+        testSHA224: function () {
+            Y.Assert.areEqual('a30e01098bc6dbbf45690f3a7e9e6d0f8bbea2a39e6148008fd05e44', C.HmacSHA224('what do ya want for nothing?', 'Jefe').toString());
+        },
+
         testUpdate: function () {
             var hmac = C.algo.HMAC.create(C.algo.MD5, C.enc.Hex.parse('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'));
             hmac.update(C.enc.Hex.parse('dddddddddddddddddddddddddddddddddddd'));
