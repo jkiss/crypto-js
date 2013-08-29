@@ -16,17 +16,6 @@
      */
     var superInit = WordArray.init;
     var subInit   = WordArray.init = function (typedArray) {
-        var wordArray;
-        if (wordArray = WordArray.fromArrayBuffer(typedArray)) {
-            this.mixIn(wordArray);
-        } else {
-            // Else call normal init
-            superInit.apply(this, arguments);
-        }
-    };
-    subInit.prototype = WordArray;
-
-    WordArray.fromArrayBuffer = function (typedArray) {
         // Convert ArrayBuffer to Uint8Array
         if (typedArray instanceof ArrayBuffer) {
             typedArray = new Uint8Array(typedArray);
@@ -62,9 +51,13 @@
             }
 
             // Initialize this word array
-            return new WordArray.init(words, typedArrayByteLength);
+            superInit.call(this, words, typedArrayByteLength);
+        } else {
+            // Else call normal init
+            superInit.apply(this, arguments);
         }
     };
+    subInit.prototype = WordArray;
 
     /**
      * Converts this word array to an array buffer.
